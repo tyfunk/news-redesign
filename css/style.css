@@ -7,24 +7,24 @@
 .nav{
 	letter-spacing: 0px;
 	word-spacing: 20px;
-	border-top: 5px solid white;
-	border-bottom: 5px solid white;
+	border-top: 5px solid #B0B0B0;
+	border-bottom: 5px solid #B0B0B0;
 	padding:5px 0 5px 0;
 	margin:0 auto;
 	width:925px;
 }
 a:link{
-	color:#B0B0B0;
+	color:#FDFEFE;
 	text-decoration: none;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: bold;
 	font-size: 13px;
 }
 a:hover{
-	color: black;
+	color: #2C3E50;
 }
 a:visited{
-	color:white;
+	color:#D0D3D4;
 }
 .container{
 	line-height: 15px;
@@ -32,7 +32,6 @@ a:visited{
 	width:100%;
 	border-left: 10px solid #880000;
 	border-right: 10px solid #880000;
-
 }
 .ad-wrap{
 	margin:	15px 0 5px 0;
@@ -98,17 +97,20 @@ h4{
 }
 img{
 	width:100%;
+	height: 130px;
 	text-align: center;
 }
 .social{
 	width:auto;
 	padding:15px 0 15px 0;
+	height: 100%;
 }
 .socials{
 	margin-top: 60px;
 	border:15px solid #B0B0B0;
 	text-align: center;
 	word-spacing: 15px;
+
 }
 span{
 	text-transform: uppercase;
@@ -184,6 +186,10 @@ a.bottoms{
 	img{
 		width: 75%;
 		height: 75%;
+	}
+	.beat{
+		max-height: 125px;
+		max-width: 125px;
 	}
 	.ad-wrap{
 		text-align: center;
